@@ -8,3 +8,11 @@ I tried to search for some solution where this can be handled when I pull code o
 Anyways, its an effort to provide a script to make sure I have peace of mind and won't do more manual work.
 
 What I believe is Automate it, If it is regular process.
+
+How to use ?
+=============
+
+Copy the **_git-prune.sh_** or execute the file inside _scripts_ folder into your current Github directory you want to delete branches which are locally present.
+
+# Caveat : 
+For now it will also delete the untracked local branches which have never been pushed. So, use it wisely.
