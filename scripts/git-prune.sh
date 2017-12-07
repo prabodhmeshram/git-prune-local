@@ -2,6 +2,14 @@
 
 #Script to prune / delete the local git script
 
+# Check if needed to fetch before prooning
+
+read -p "Do you wish to perform git fetch ? (Y/N) " yn
+
+if [ $yn = "Y" ]; then
+	git fetch -p
+fi
+
 remote_branches_string=$(git for-each-ref refs/remotes/origin | cut -d/ -f4)
 
 remote_branches=(${remote_branches_string// /})
