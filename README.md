@@ -19,6 +19,11 @@ Copy the **_git-prune.sh_** or execute the file inside _scripts_ folder into you
 * Force deleting Local Branches.
 * Prompting to fetch before deleting.
 
+### Future Features:
+
+* Prompting to selectively delete branch
+* Check if branches are Local and Alert user regarding it.
+* A better UI maybe to handle this. ( Far Future )
 
 ## Caveat : 
 For now it will also delete the untracked local branches which have never been pushed. So, use it wisely.
