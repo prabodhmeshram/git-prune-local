@@ -4,7 +4,7 @@
 
 # Check if needed to fetch before prooning
 
-read -p "Do you wish to perform git fetch ? (Y/N) " yn
+read -p "Do you wish to perform git fetch before pruning? (Y/N) " yn
 
 if [ $yn = "Y" ]; then
 	git fetch -p
