@@ -14,5 +14,11 @@ How to use ?
 
 Copy the **_git-prune.sh_** or execute the file inside _scripts_ folder into your current Github directory you want to delete branches which are locally present.
 
-# Caveat : 
+### Supports :
+
+* Force deleting Local Branches.
+* Prompting to fetch before deleting.
+
+
+## Caveat : 
 For now it will also delete the untracked local branches which have never been pushed. So, use it wisely.
